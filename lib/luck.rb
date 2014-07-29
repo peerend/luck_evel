@@ -1,7 +1,7 @@
 def lucky_number(ticket)
   
   ticket_array = ticket.to_s.split('') #Split the ticket into an array
-  ticket_array = user_ticket_array.map { |i| i.to_i } #converts elements to integer
+  ticket_array = ticket_array.map { |i| i.to_i } #converts elements to integer
   
   ticket_length = ticket_array.length
   bottom_length = (ticket_length/2.0).floor #split the array into bottom and top
