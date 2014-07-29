@@ -17,6 +17,6 @@ def lucky_number(ticket)
   if ticket_btm_sum == ticket_top_sum
      "Lucky Ticket"
   else
-     "Not a lucky ticket"
+     "Not a Lucky Ticket"
   end
 end
